@@ -1,50 +1,26 @@
 # CS3130_Project1_Eval_Polynomials
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "7bd28012",
-   "metadata": {},
-   "source": [
-    "# To Do List\n",
-    "\n",
-    "- [] Write the three algorithms that can evaluate a polynomial of the form: $P_{n}(X)=1+x+2x^{2}+3x^{3}+\\cdots+nx^{n}$, with x and n being limited to **integer numbers**\n",
-    "    - Brute Force\n",
-    "    - Repeated Squaring of Monomials\n",
-    "    - Horner's Rule\n",
-    "    - Output:\n",
-    "        - Print: the time in milliseconds, the value of $P_{n}(X)$\n",
-    "- [] Round One **Accuracy**: \n",
-    "    - Make it such that the algorithms experience overflow \n",
-    "    - Handle the overflow error\n",
-    "    - Test the algorithms on small samples for accuracy \n",
-    "- [] Round Two **Testing on Large Data**\n",
-    "    - Test the algorithms on a large x,n, such that the time is between two and five seconds\n",
-    "   - Write the digit comparison program\n",
-    "        - m = number of digits overall that are the same, given that the results have the same number of digits\n",
-    "        - a,b -> the start and end point of a portion of digits between 10 and 20 digits long\n",
-    "        - Output:\n",
-    "            - m\n",
-    "            - the portion of digits\n",
-    "            - Should the digits be mismatched:\n",
-    "                print out the correct digits in green, and the mismatched digit in red\n",
-    "- [] Written Report\n",
-    "    - Explain all results of each experiment\n",
-    "    - Include screen shots of results\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "e458cb06",
-   "metadata": {},
-   "source": []
-  }
- ],
- "metadata": {
-  "language_info": {
-   "name": "python"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+## To Do List
+
+   - [] Write the three algorithms that can evaluate a polynomial of the form: $P_{n}(X)=1+x+2x^{2}+3x^{3}+\\cdots+nx^{n}$, with x and n being limited to **integer numbers**",
+        - Brute Force,
+        - Repeated Squaring of Monomials,
+        - Horner's Rule,
+        - Output:,
+            - Print: the time in milliseconds, the value of $P_{n}(X)$,
+   - [] Round One **Accuracy**: ,
+        - Make it such that the algorithms experience overflow ,
+        - Handle the overflow error,
+        - Test the algorithms on small samples for accuracy ,
+   - [] Round Two **Testing on Large Data**,
+        - Test the algorithms on a large x,n, such that the time is between two and five seconds,
+       - Write the digit comparison program,
+            - m = number of digits overall that are the same, given that the results have the same number of digits,
+            - a,b -> the start and end point of a portion of digits between 10 and 20 digits long,
+            - Output:,
+                - m,
+                - the portion of digits,
+                - Should the digits be mismatched:,
+                    print out the correct digits in green, and the mismatched digit in red,
+   - [] Written Report,
+        - Explain all results of each experiment,
+        - Include screen shots of results\n"
