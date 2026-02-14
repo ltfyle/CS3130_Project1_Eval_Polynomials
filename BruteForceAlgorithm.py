@@ -15,23 +15,27 @@ for i <- 0 to n do
 
 return p
 '''
+class BruteForce:
+     
+     def __init__(self):
+          
+          pass
 
-import timeit
-def BruteForceAlgorithm(x: int, n: int):
+     def calculate_polynomial(self,x,n):
+     
+        p = 1
 
-    p = 1
+        for i in range(0,n+1):
 
-    for i in range(0,n+1):
-
-        power = 1     
-        for j in range(1,i+1):
-                power = power * x
+            power = 1     
+            for j in range(1,i+1):
+                    power = power * x
 
 
-        p = p + (i*power) 
+            p = p + (i*power) 
+            
         
-    
-    return p 
+        return p 
 
 
-BruteForceAlgorithm(123,2500)
+

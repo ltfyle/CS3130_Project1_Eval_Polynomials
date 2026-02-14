@@ -1,0 +1,15 @@
+import time 
+from testing_tools import TestCases
+from BruteForceAlgorithm import BruteForce as brute_force
+from RepeatedSquaresAlgorithm import RepeatedSquare as repeated_square
+
+
+cases = [(3,5),(2,10),(5,11),(6,23),(12,25)]
+
+rs = repeated_square()
+bf = brute_force()
+
+TestCases(rs.calculate_monomials,cases).get_results()
+
+
+
