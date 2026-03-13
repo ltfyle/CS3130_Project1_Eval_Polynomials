@@ -1,6 +1,12 @@
-from polynomials import Polynomial
+from polynomials import *
+from testing_tools import *
+import random
+random.seed(349)
 
-cases = [(3,4),(4,5),(6,7),(8,9),(10,11)]
+ex1_test_cases = create_test_cases(10,20,100)
+ex1_brute_force = record_results(brute_force,ex1_test_cases)
+
+ex1_brute_force
 
 
 

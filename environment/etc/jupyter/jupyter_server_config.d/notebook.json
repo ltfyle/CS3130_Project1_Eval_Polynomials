@@ -1,0 +1,15 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "notebook": true
+    }
+  }
+}
+{
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  }
+}
+
